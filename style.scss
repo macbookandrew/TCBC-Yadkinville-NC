@@ -69,8 +69,8 @@ $almost-black:              #210d10; // quote post format background
 $black:                     #000000;
 
 $footer-text:               #686758;
-$footer-background:         #e8e5ce;
 $footer-link:               #e6402a; // footer widget links
+$copyright-background:      #e8e5ce;
 
 $text-color:                #141412; // normal body text
 
@@ -1781,7 +1781,7 @@ footer.entry-meta {
  */
 
 .attachment .hentry {
-	background-color: $footer-background;
+	background-color: $copyright-background;
 	margin: 0;
 	padding: 0;
 }
@@ -1941,7 +1941,7 @@ footer.entry-meta {
 }
 
 .paging-navigation {
-	background-color: $footer-background;
+	background-color: $copyright-background;
 	padding: 40px 0;
 }
 
@@ -2069,7 +2069,7 @@ footer.entry-meta {
  */
 
 .archive-header {
-	background-color: $footer-background;
+	background-color: $copyright-background;
 }
 
 .archive-title,
@@ -2100,7 +2100,7 @@ footer.entry-meta {
  */
 
 .page-header {
-	background-color: $footer-background;
+	background-color: $copyright-background;
 }
 
 .page-title {
@@ -2144,7 +2144,7 @@ footer.entry-meta {
 }
 
 .error404 .page-title:before {
-	color: $footer-background;
+	color: $copyright-background;
 	content: "\f423";
 	font-size: 964px;
 	line-height: 0.6;
@@ -2155,7 +2155,7 @@ footer.entry-meta {
 }
 
 .error404 .page-wrapper {
-	background-color: $footer-background;
+	background-color: $copyright-background;
 }
 
 .error404 .page-header,
@@ -2592,7 +2592,7 @@ footer.entry-meta {
  */
 
 .site-footer {
-	background-color: $footer-background;
+	background-color: $copyright-background;
 	color: $footer-text;
 	font-size: 14px;
 	text-align: center;
