@@ -422,7 +422,7 @@ footer.entry-meta { margin-top: 24px; }
 /* Aside */
 .format-aside { background-color: #f7f5e7; }
 
-.blog .format-aside:first-of-type, .single .format-aside:first-of-type, .format-aside + .format-aside, .format-aside + .format-link, .format-link + .format-aside { box-shadow: inset 0 2px 2px rgba(173, 165, 105, 0.2); }
+.blog .format-aside:first-of-type, .single .format-aside:first-of-type, .format-aside + .format-aside, .format-aside + .format-link, .format-link + .format-aside { box-shadow: inset 0 2px 2px rgba(195, 192, 171, 0.2); }
 
 .format-aside .entry-meta { margin-top: 0; }
 
@@ -481,7 +481,7 @@ footer.entry-meta { margin-top: 24px; }
 /* Link */
 .format-link { background-color: #f7f5e7; }
 
-.blog .format-link:first-of-type, .single .format-link:first-of-type { box-shadow: inset 0 2px 2px rgba(173, 165, 105, 0.2); }
+.blog .format-link:first-of-type, .single .format-link:first-of-type { box-shadow: inset 0 2px 2px rgba(195, 192, 171, 0.2); }
 
 .format-link .entry-header, .format-link .entry-content p:last-child { margin-bottom: 0; }
 
