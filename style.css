@@ -270,7 +270,7 @@ ul.nav-menu, div.nav-menu > ul { margin: 0; padding: 0 40px 0 0; }
 
 .nav-menu li a { color: #141412; display: block; font-size: 15px; line-height: 1; padding: 15px 20px; text-decoration: none; }
 
-.nav-menu li:hover > a, .nav-menu li a:hover, .nav-menu li:focus > a, .nav-menu li a:focus { background-color: #220e10; color: #ffffff; }
+.nav-menu li:hover > a, .nav-menu li a:hover, .nav-menu li:focus > a, .nav-menu li a:focus { background-color: #db572f; color: #ffffff; }
 
 .nav-menu .sub-menu, .nav-menu .children { background-color: #220e10; border: 2px solid #f7f5e7; border-top: 0; padding: 0; position: absolute; left: -2px; z-index: 99999; height: 1px; width: 1px; overflow: hidden; clip: rect(1px, 1px, 1px, 1px); }
 
