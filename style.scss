@@ -40,6 +40,7 @@ Use it to make something cool, have fun, and share what you've learned with othe
  *   5.11 - 404
  *   5.12 - Comments
  *   5.13 - Multisite
+ *   5.14 - Vcards
  * 6.0 - Sidebar
  *   6.1 - Widgets
  * 7.0 - Footer
@@ -2469,6 +2470,15 @@ footer.entry-meta {
 	width: auto;
 }
 
+
+/**
+ * 5.14 Vcards
+ * ----------------------------------------------------------------------------
+ */
+
+.vcard address, p {
+    margin: 0;
+}
 
 /**
  * 6.0 Sidebar
