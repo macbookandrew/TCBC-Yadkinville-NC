@@ -83,9 +83,9 @@ $secondary-links:           #bc360a; // widget <a>, etc.
 $input-focus:               #c3c0ab;
 $placeholder-color:         #7d7b6d; // input placeholders, etc.
 
-$menu-border:               #f7f5e7;
-$menu-hover:                #220e10; // menubar link hover text color
-$menu-background-hover:     #db572f; // menubar
+$menu-background:               #f7f5e7;
+$menu-hover-text:                #220e10; // menubar link hover text color
+$menu-hover-background:     #db572f; // menubar
 
 $required:                  #ed331c; // comment form
 
@@ -789,7 +789,7 @@ img.alignnone {
 .wp-caption .wp-caption-text,
 .entry-caption,
 .gallery-caption {
-	color: $menu-hover;
+	color: $menu-hover-text;
 	font-size: 18px;
 	font-style: italic;
 	font-weight: 300;
@@ -932,14 +932,14 @@ div.nav-menu > ul {
 .nav-menu li a:hover,
 .nav-menu li:focus > a,
 .nav-menu li a:focus {
-	background-color: $menu-hover;
+	background-color: $menu-hover-text;
 	color: $white;
 }
 
 .nav-menu .sub-menu,
 .nav-menu .children {
-	background-color: $menu-hover;
-	border: 2px solid $menu-border;
+	background-color: $menu-hover-text;
+	border: 2px solid $menu-background;
 	border-top: 0;
 	padding: 0;
 	position: absolute;
@@ -969,7 +969,7 @@ ul.nav-menu ul a:hover,
 .nav-menu ul ul a:hover,
 ul.nav-menu ul a:focus,
 .nav-menu ul ul a:focus {
-	background-color: $menu-background-hover;
+	background-color: $menu-hover-background;
 }
 
 ul.nav-menu li:hover > ul,
@@ -995,7 +995,7 @@ ul.nav-menu .focus > ul,
 
 /* Navbar */
 .navbar {
-	background-color: $menu-border;
+	background-color: $menu-background;
 	margin: 0 auto;
 	max-width: 1600px;
 	width: 100%;
@@ -1271,7 +1271,7 @@ footer.entry-meta {
 /* Mediaelements */
 .hentry .mejs-mediaelement,
 .hentry .mejs-container .mejs-controls {
-	background: $menu-hover;
+	background: $menu-hover-text;
 }
 
 .hentry .mejs-controls .mejs-time-rail .mejs-time-loaded,
@@ -1429,7 +1429,7 @@ footer.entry-meta {
 
 /* Aside */
 .format-aside {
-	background-color: $menu-border;
+	background-color: $menu-background;
 }
 
 .blog .format-aside:first-of-type,
@@ -1461,7 +1461,7 @@ footer.entry-meta {
 
 /* Audio */
 .format-audio {
-	background-color: $menu-background-hover;
+	background-color: $menu-hover-background;
 }
 
 .format-audio .entry-title {
@@ -1577,7 +1577,7 @@ footer.entry-meta {
 
 /* Link */
 .format-link {
-	background-color: $menu-border;
+	background-color: $menu-background;
 }
 
 .blog .format-link:first-of-type,
@@ -1612,7 +1612,7 @@ footer.entry-meta {
 
 .format-quote .entry-content,
 .format-quote .entry-meta {
-	color: $menu-border;
+	color: $menu-background;
 }
 
 .format-quote .entry-content blockquote {
@@ -1680,7 +1680,7 @@ footer.entry-meta {
 }
 
 .format-status .entry-meta a {
-	color: $menu-border;
+	color: $menu-background;
 }
 
 .sidebar .format-status .entry-content,
@@ -1717,7 +1717,7 @@ footer.entry-meta {
 }
 
 .format-status .entry-content {
-	color: $menu-border;
+	color: $menu-background;
 	font-size: 24px;
 	font-style: italic;
 	font-weight: 300;
@@ -1755,7 +1755,7 @@ footer.entry-meta {
 
 /* Video */
 .format-video {
-	background-color: $menu-background-hover;
+	background-color: $menu-hover-background;
 }
 
 .format-video .entry-content a,
@@ -1771,7 +1771,7 @@ footer.entry-meta {
 }
 
 .format-video .entry-meta {
-	color: $menu-hover;
+	color: $menu-hover-text;
 }
 
 
@@ -2044,7 +2044,7 @@ footer.entry-meta {
 }
 
 .single-format-status .author-description {
-	color: $menu-border;
+	color: $menu-background;
 }
 
 .author-description .author-title {
@@ -2328,7 +2328,7 @@ footer.entry-meta {
 
 /* Comment form */
 .comment-respond {
-	background-color: $menu-border;
+	background-color: $menu-background;
 	padding: 30px 0;
 }
 
@@ -2426,7 +2426,7 @@ footer.entry-meta {
 }
 
 .no-comments {
-	background-color: $menu-border;
+	background-color: $menu-background;
 	font-size: 20px;
 	font-style: italic;
 	font-weight: 300;
@@ -2608,7 +2608,7 @@ footer.entry-meta {
 }
 
 .site-footer .sidebar-container {
-	background-color: $menu-hover;
+	background-color: $menu-hover-text;
 	padding: 20px 0;
 }
 
@@ -2947,7 +2947,7 @@ footer.entry-meta {
 
 	.toggled-on .nav-menu li a:hover,
 	.toggled-on .nav-menu ul a:hover {
-		background-color: $menu-background-hover;
+		background-color: $menu-hover-background;
 		color: $white;
 	}
 
