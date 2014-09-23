@@ -90,6 +90,7 @@ $menu-background-hover:     #db572f; // menubar
 $required:                  #ed331c; // comment form
 
 $header-font-stack: "Source Sans Pro", Helvetica, sans-serif;
+$body-font-stack:   "Open Sans", Helvetica, sans-serif;
 
 /**
  * 1.0 Reset
@@ -147,7 +148,7 @@ button,
 input,
 select,
 textarea {
-	font-family: $header-font-stack;
+	font-family: $body-font-stack;
 }
 
 body {
