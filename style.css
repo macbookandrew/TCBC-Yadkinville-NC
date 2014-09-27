@@ -268,7 +268,7 @@ ul.nav-menu, div.nav-menu > ul { margin: 0; padding: 0 40px 0 0; }
 
 .nav-menu li { display: inline-block; position: relative; }
 
-.nav-menu li a { color: #141412; display: block; font-size: 15px; line-height: 1; padding: 15px 20px; text-decoration: none; }
+.nav-menu li a { color: #141412; display: block; font-size: 15px; padding: 15px 20px; text-decoration: none; }
 
 .nav-menu li:hover > a, .nav-menu li a:hover, .nav-menu li:focus > a, .nav-menu li a:focus { background-color: #db572f; color: #ffffff; }
 
@@ -282,7 +282,7 @@ ul.nav-menu ul a:hover, .nav-menu ul ul a:hover, ul.nav-menu ul a:focus, .nav-me
 
 ul.nav-menu li:hover > ul, .nav-menu ul li:hover > ul, ul.nav-menu .focus > ul, .nav-menu .focus > ul { clip: inherit; overflow: inherit; height: inherit; width: inherit; }
 
-.nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a { color: #bc360a; }
+.nav-menu .current_page_item > a, .nav-menu .current_page_ancestor > a, .nav-menu .current-menu-item > a, .nav-menu .current-menu-ancestor > a { color: #bc360a; font-weight: bold; }
 
 .menu-toggle { display: none; }
 

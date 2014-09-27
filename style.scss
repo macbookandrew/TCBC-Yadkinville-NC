@@ -924,7 +924,6 @@ div.nav-menu > ul {
 	color: $text-color;
 	display: block;
 	font-size: 15px;
-	line-height: 1;
 	padding: 15px 20px;
 	text-decoration: none;
 }
@@ -988,6 +987,7 @@ ul.nav-menu .focus > ul,
 .nav-menu .current-menu-item > a,
 .nav-menu .current-menu-ancestor > a {
 	color: $secondary-links;
+    font-weight: bold;
 }
 
 .menu-toggle {
@@ -2476,8 +2476,8 @@ footer.entry-meta {
  * ----------------------------------------------------------------------------
  */
 
-.vcard address, p {
-    margin: 0;
+.vcard {
+    address, p { margin: 0; }
 }
 
 /**
