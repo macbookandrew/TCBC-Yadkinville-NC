@@ -253,7 +253,7 @@ img.wp-smiley, .rsswidget img { border: 0; border-radius: 0; box-shadow: none; m
 /** 4.1 Site Header ---------------------------------------------------------------------------- */
 .site-header { position: relative; }
 
-.site-header .home-link { color: #141412; display: block; margin: 0 auto; max-width: 1080px; min-height: 230px; padding: 0 20px; text-decoration: none; width: 100%; }
+.site-header .home-link { color: #141412; display: block; margin: 0 auto; max-width: 1080px; padding: 0 20px; text-decoration: none; width: 100%; }
 
 .site-header .site-title:hover { text-decoration: underline; }
 
@@ -789,7 +789,7 @@ footer.entry-meta { margin-top: 24px; }
 .site-main .mu_register input[type="submit"] { width: auto; }
 
 /** 5.14 Vcards ---------------------------------------------------------------------------- */
-.vcard address, p { margin: 0; }
+.vcard address, .vcard p { margin: 0; }
 
 /** 6.0 Sidebar ---------------------------------------------------------------------------- */
 .site-main .widget-area { float: right; width: 300px; }
@@ -891,6 +891,7 @@ footer.entry-meta { margin-top: 24px; }
   .site-main .sidebar-container { height: auto; margin: 0 auto; max-width: 604px; position: relative; top: 20px; }
   .site-main .widget-area { float: none; margin: 0; width: 100%; }
   .sidebar .site-footer .widget-area { max-width: 100%; left: 0; } }
+@media (min-width: 768px) { .site-header .home-link { min-height: 492px; } }
 /* Collapse oversized image and pulled images after iPad breakpoint. */
 @media (max-width: 767px) { .entry-content img.alignleft, .entry-content .wp-caption.alignleft { margin-left: 0; }
   .entry-content img.alignright, .entry-content .wp-caption.alignright { margin-right: 0; }

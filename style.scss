@@ -872,7 +872,6 @@ img.wp-smiley,
 	display: block;
 	margin: 0 auto;
 	max-width: 1080px;
-	min-height: 230px;
 	padding: 0 20px;
 	text-decoration: none;
 	width: 100%;
@@ -2844,6 +2843,12 @@ footer.entry-meta {
 		max-width: 100%;
 		left: 0;
 	}
+}
+
+@media (min-width: 768px) {
+    .site-header .home-link {
+        min-height: 492px;
+    }
 }
 
 /* Collapse oversized image and pulled images after iPad breakpoint. */
