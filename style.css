@@ -31,7 +31,7 @@ html { font-size: 100%; overflow-y: scroll; -webkit-text-size-adjust: 100%; -ms-
 
 html, button, input, select, textarea { font-family: "Open Sans", Helvetica, sans-serif; }
 
-body { color: #141412; line-height: 1.5; margin: 0; }
+body { background-color: #e8e5ce; color: #141412; line-height: 1.5; margin: 0; }
 
 a { color: #ca3c08; text-decoration: none; }
 
