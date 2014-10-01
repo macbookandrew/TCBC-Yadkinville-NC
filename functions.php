@@ -29,3 +29,10 @@ function tcbc_custom_header_setup() {
 
 }
 add_action( 'after_setup_theme', 'tcbc_custom_header_setup', 11 );
+
+/* deregister Bitter and Open Sans webfonts */
+function replace_default_fonts() {
+    wp_deregister_style( 'twentythirteen-fonts' );
+    wp_enqueue_style( 'pt-serif-and-sans', 'http://fonts.googleapis.com/css?family=PT+Sans:400,700,400italic|PT+Serif:700' );
+}
+add_action( 'wp_enqueue_scripts', 'replace_default_fonts', 100 );
