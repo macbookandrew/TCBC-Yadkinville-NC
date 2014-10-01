@@ -2754,6 +2754,12 @@ footer.entry-meta {
 	}
 }
 
+@media (min-width: 1000px) {
+    .entry-content {
+        min-height: 400px;
+    }
+}
+
 @media (max-width: 999px) {
 	.sidebar .entry-header,
 	.sidebar .entry-content,
