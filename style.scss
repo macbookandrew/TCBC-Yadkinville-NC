@@ -184,9 +184,9 @@ a:hover {
 }
 
 a.tel {
-    color: inherit;
-    text-decoration: none;
-    cursor: default;
+    color: inherit !important;
+    text-decoration: none !important;
+    cursor: default !important;
 }
 
 h1,
