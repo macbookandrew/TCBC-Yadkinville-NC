@@ -11,13 +11,13 @@
 	function login_css() {
 		echo "<style type=\"text/css\" media=\"screen\">
 		#login h1 a {
-			background-image: url('" . get_bloginfo( 'stylesheet_directory' ) . "/images/MBC-login.jpg') !important;
-			background-size: 450px 157px !important;
+			background-image: url('" . get_bloginfo( 'stylesheet_directory' ) . "/images/TCBC-header.jpg') !important;
+			background-size: 800px 246px !important;
 			background-position: left;
-			width: 450px;
-			height: 157px;
+			width: 800px;
+			height: 246px;
 			position: relative;
-			left: -78px;
+			left: -246px;
 			margin-bottom: 15px;
 			-moz-box-shadow: rgba(200,200,200,0.7) 0 4px 10px -1px;
 			-webkit-box-shadow: rgba(200,200,200,0.7) 0 4px 10px -1px;
