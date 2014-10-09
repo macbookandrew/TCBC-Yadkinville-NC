@@ -78,8 +78,3 @@ function armd_title_trim($title) {
 add_filter( 'protected_title_format','armd_title_trim' );
 add_filter( 'private_title_format','armd_title_trim' );
 // end remove "Private:" from page titles
-
-function favicon_link() {
-    echo '<link rel="shortcut icon" type="image/x-icon" href="' . get_bloginfo( 'stylesheet_directory' ) . '/favicon.ico" />' . "\n";
-}
-add_action( 'wp_head', 'favicon_link' );
