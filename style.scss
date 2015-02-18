@@ -648,7 +648,7 @@ a.button {
 	border: none;
 	border-bottom: 3px solid #b93207;
 	border-radius: 2px;
-	color: $white;
+	color: $white !important;
 	display: inline-block;
 	padding: 11px 24px 10px;
 	text-decoration: none;
