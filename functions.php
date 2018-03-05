@@ -30,6 +30,21 @@ function tcbc_custom_header_setup() {
 }
 add_action( 'after_setup_theme', 'tcbc_custom_header_setup', 11 );
 
+/**
+ * Use featured image if available
+ * @param  string $image header image URL
+ * @return string header image URL
+ */
+function tcbc_featured_image_header( $image ) {
+    global $post;
+    if ( has_post_thumbnail( $post->ID ) ) {
+        $image = get_the_post_thumbnail_url( $post->ID, array( 230, 1600 ) );
+    }
+
+    return $image;
+}
+add_filter( 'theme_mod_header_image', 'tcbc_featured_image_header' );
+
 /* deregister Bitter and Open Sans webfonts */
 function replace_default_fonts() {
     wp_deregister_style( 'twentythirteen-fonts' );
